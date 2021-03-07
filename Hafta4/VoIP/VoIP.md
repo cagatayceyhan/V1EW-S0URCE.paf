@@ -56,7 +56,7 @@ IP telefonlar için arama kontrolü sağlar. Bant genişliği kontrolü yönetim
 
 Ses,Mail anlık mesajlaşma gibi uygulamaları sunar.
 
-##PBX (PRIVATE BRUNCH EXCHANGE)
+## PBX (PRIVATE BRUNCH EXCHANGE)
 
 Dahili telefonlardan oluşan telefon ağını harici ve mobil telefon hatlarına bağlayan sistemdir.İç ağlarda Santral olarak kullanılmaktadır.
 
@@ -161,7 +161,7 @@ SIP mesajlarının ele geçirilmesi ve belli bir süre sonra aynı mesajların g
 
 # Oturum Bozma Saldırıları (Session Corruption Attack)
 
-Var olan bir sinyalleşme ya da oturumu kesmek amacıyla gerçekleştirilir. İletişim halinde bulunan kullanıcılar arasına saldırganın girmesi ve aradaki bağlantıyı, BYE mesajı yollayarak bitirmesi ile sonuçlanır [16]. HTTP Digest Authentication kullanılmış olsa dahi saldırgan zararlı ACK ya da CANCEL istekleri ile oturumların düşmesine neden olabilir. Güvenli oturum kurulması sağlanarak ve gerekli yetkilendirmeler yapılarak oturuma dâhil olunması engellenebilir ve bu sayede de oturumun devamlılığı sağlanabilir.
+Var olan bir sinyalleşme ya da oturumu kesmek amacıyla gerçekleştirilir. İletişim halinde bulunan kullanıcılar arasına saldırganın girmesi ve aradaki bağlantıyı, BYE mesajı yollayarak bitirmesi ile sonuçlanır. HTTP Digest Authentication kullanılmış olsa dahi saldırgan zararlı ACK ya da CANCEL istekleri ile oturumların düşmesine neden olabilir. Güvenli oturum kurulması sağlanarak ve gerekli yetkilendirmeler yapılarak oturuma dâhil olunması engellenebilir ve bu sayede de oturumun devamlılığı sağlanabilir.
 
 # Yanıltma (Spoofing)
 
