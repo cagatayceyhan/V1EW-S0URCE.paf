@@ -5,7 +5,17 @@
 
 
 Bilgisayarımız açıldığında işletim sistemi bulunduğu yerel ağda bir adet duyuru(çıkış) mesajı yayınlar.Yayınlanan bu mesaj modem ve istemci tarafından konuşabilmeleri  için iki tarafda kendi bilgilerini **ARP (Address Resolution Protocol) Tablosuna ekler.** ARP protokolü ilk olarak **MAC (Media Access Control)** bilgilerini öğrenir.Öğrenilen MAC adresi ARP tablosuna yazılır.Bu işlemler tamamlandıktan sonra **DHCP(Dynamic Host Configuration Protocol)  üzerinden Gateway ve Subnet Mask** değerleri alınır.
+
+
+
 ![](https://www.internetsociety.org/wp-content/uploads/2019/02/dnsprivacy1-450x339.gif)
+
+
+
+
+
+
+
 Bu işlemler yerel ağda tamamlandıktan sonra **Browser açarız**.**google.com yazdığımızda** ilk olarak işletim sistemimiz içerisindeki **hosts** dosyasını bakar.İşletim sistemi **DNS(Domain Name System)** yönledirmesi yapmadan hosts dosyasındaki DNS çözümlemesinin bilgilerini söyleme imkanı vardır.Kısaca kullandığımız işletim sistemi  hosts dosyası browser'a google yazdığımız an DNS yönlendirmesi yapmadan google adresini hosts dosyasından çözümleme yapıp devam edebilir.Eğer hosts dosyası çözümleme yapmazsa DNS sunucusuna yönlendirme yaparak domain adresini orada çözümleme yapmaya çalışır.**Bu sorgulamayı UDP 53 portu üzerinden gerçekleştirir.**
 İlk başvurulan DNS sunucusu **Resolver** (Özyinelemeli) DNS ad sunucuları (DRR), DNS isteğinde bulunan ana bilgisayara istenen etki alanı adının doğru IP adresini sağlamak için diğer sorumlu DNS istekleriyle iletişim kurar. DNS istemcisiyle DNS isim sunucusu arasında aracı (middle-man) görevi görür.Tarayıcınızdan bir web sitesine istekte bulunurken, bilgisayar web sitesiyle ilişkili IP adresini bulmak için DRR’a istekte bulunur; bu isteğin yanıtının işletim sisteminde ve web tarayıcısınında olmadığı varsayılmaktadır. DRR kendi önbelleğinde isteğin yanıtını bulamazsa diğer DNS sunucularına özyinelemeli(recursive) isteklerde bulunur.
 
