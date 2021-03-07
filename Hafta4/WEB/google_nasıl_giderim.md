@@ -1,4 +1,4 @@
-# _GOOGLE'A ERİŞİM ADIMLARI?_
+# _GOOGLE'A ERİŞİM ADIMLARI_
 
 ![](https://www.sonsuzteknoloji.com/wp-content/uploads/2018/03/google-tenor.gif)
 
