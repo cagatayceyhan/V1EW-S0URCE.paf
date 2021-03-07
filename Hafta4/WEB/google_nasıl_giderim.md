@@ -2,6 +2,8 @@
 
 ![](https://www.sonsuzteknoloji.com/wp-content/uploads/2018/03/google-tenor.gif)
 
+
+
 Bilgisayarımız açıldığında işletim sistemi bulunduğu yerel ağda bir adet duyuru(çıkış) mesajı yayınlar.Yayınlanan bu mesaj modem ve istemci tarafından konuşabilmeleri  için iki tarafda kendi bilgilerini **ARP (Address Resolution Protocol) Tablosuna ekler.** ARP protokolü ilk olarak **MAC (Media Access Control)** bilgilerini öğrenir.Öğrenilen MAC adresi ARP tablosuna yazılır.Bu işlemler tamamlandıktan sonra **DHCP(Dynamic Host Configuration Protocol)  üzerinden Gateway ve Subnet Mask** değerleri alınır.
 ![](https://www.internetsociety.org/wp-content/uploads/2019/02/dnsprivacy1-450x339.gif)
 Bu işlemler yerel ağda tamamlandıktan sonra **Browser açarız**.**google.com yazdığımızda** ilk olarak işletim sistemimiz içerisindeki **hosts** dosyasını bakar.İşletim sistemi **DNS(Domain Name System)** yönledirmesi yapmadan hosts dosyasındaki DNS çözümlemesinin bilgilerini söyleme imkanı vardır.Kısaca kullandığımız işletim sistemi  hosts dosyası browser'a google yazdığımız an DNS yönlendirmesi yapmadan google adresini hosts dosyasından çözümleme yapıp devam edebilir.Eğer hosts dosyası çözümleme yapmazsa DNS sunucusuna yönlendirme yaparak domain adresini orada çözümleme yapmaya çalışır.**Bu sorgulamayı UDP 53 portu üzerinden gerçekleştirir.**
@@ -21,6 +23,9 @@ TCP paketi **4 kısımdan** oluşur.**Source IP,Destination IP,Source Port,Desti
 **Destination Port hedefe çıkış portumuzdur google web hizmeti olduğu için çıkış portu 80 dir.**
 
 ![](https://www.grc.com/image/tcpconnect.gif)
+
+
+
 
 TCP paketi geteway kısmından çıkmadan önce **NAT(Network Address Translation)** tarafından işleme tabi tutulur.**Burada NAT TCP Source IP kısmını silerek yerine yeni bir IP adres(DIŞ IP)ataması yapar.Paket dışarı çıktıktan sonra hedefe SYN paketi gönderir.Hedef geri dönüş olarak SYN+ ACK yollar.Sürecin tamamlanması için  istemci ACK paketini yollar.Bu sürece three way handshake (üçlü el sıkışma)adı verilir.**
 
