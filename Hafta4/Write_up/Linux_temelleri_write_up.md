@@ -17,8 +17,6 @@ flag2'yi bulmak için dizinler arası dolaşıyoruz.bob dizini içerisine girdi�
 
 -------------------------------------------------------------------------------------------------
 
-Flag 3 is located where bob's bash history gets stored.
-
 
 **Flag 3 is located where bob's bash history gets stored.**
 
