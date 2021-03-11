@@ -22,7 +22,7 @@ Flag 3 is located where bob's bash history gets stored.
 
 **Flag 3 is located where bob's bash history gets stored.**
 
-bob dizini altında ls-lah komutunu kullanarak detaylı şekilde listeleme yapıyoruz çıkan sonuçta cat .bash_history komutunu çalıştırıp flag3ê ulaşıyoruz.
+bob dizini altında ls-lah komutunu kullanarak detaylı şekilde listeleme yapıyoruz çıkan sonuçta cat .bash_history komutunu çalıştırıp flag3'e ulaşıyoruz.
 
 ![](https://raw.githubusercontent.com/cagatayceyhan/terminal_Img/main/3.PNG)
 
