@@ -108,6 +108,7 @@ Does the share allow anonymous access? Y/N?
 <h3>Great! Have a look around for any interesting documents that could contain valuable information. Who can we assume this profile folder belongs to? 
 
 <h5>John Cactus
+  
 ![](https://raw.githubusercontent.com/cagatayceyhan/terminal_Img/main/SMB7.PNG)
 
 ------------------------------------
@@ -115,7 +116,7 @@ Does the share allow anonymous access? Y/N?
 <h3>What service has been configured to allow him to work from home?
 
 <h5>ssh
-![]()
+
 
 ------------------------------------
 
@@ -123,6 +124,7 @@ Does the share allow anonymous access? Y/N?
 <h3>Okay! Now we know this, what directory on the share should we look in?
 
 <h5>.ssh
+
 ![](https://raw.githubusercontent.com/cagatayceyhan/terminal_Img/main/SMB9.PNG)
 
 
@@ -131,6 +133,7 @@ Does the share allow anonymous access? Y/N?
 <h3>This directory contains authentication keys that allow a user to authenticate themselves on, and then access, a server. Which of these keys is most useful to us?
 
 <h5>id_rsa
+
 ![](https://raw.githubusercontent.com/cagatayceyhan/terminal_Img/main/SMB10.PNG)
 
 
@@ -146,6 +149,7 @@ Now, use the information you have already gathered to work out the username of t
 What is the smb.txt flag?
 
 <h5>THM{smb_is_fun_eh?}
+
 ![](https://raw.githubusercontent.com/cagatayceyhan/terminal_Img/main/SMB14.PNG)
 
 
