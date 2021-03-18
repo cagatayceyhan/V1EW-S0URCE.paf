@@ -368,9 +368,9 @@ Finding various modules we have at our disposal within Metasploit is one of the 
 <h4>Once we've started a socks server we can modify our /etc/proxychains.conf file to include our new server. What command do we prefix our commands (outside of Metasploit) to run them through our socks5 server with proxychains?
 
 
-<h5>Cevap:
+<h5>Cevap:proxychains
 
-![](proxychains)
+![]()
 
 ---------------------
 
