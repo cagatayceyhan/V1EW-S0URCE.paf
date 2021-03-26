@@ -9,9 +9,7 @@ Konu başlıkları
 3. Routing
 4. Bağlantı katmanı  cihazları ve protokolleri (Link Layer Devices and Protocols)
 5. TCP ve UDP
-6. Güvenlik Duvarı ve Ağ Güvenliği (Firewall and Network Defense)
-7. DNS
-8. Wireshark
+
 
 ## Protocols | Protokoller
 
